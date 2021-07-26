@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+/* reset */
+   /* html,body,p, */
+   
+   .mainPageContainer, .mainPageContainer p,.commuNav ul,.commuNav li {margin: 0; padding: 0; font-size: 12px!important;}
+   body {font: 14px/1.5}
+   .mainPageContainer .btn {
+      font-size: 12px;
+      margin-right:5px;
+   }
+   .mainPageContainer .btn-last {
+      margin-right:0;   
+   }
+   
+   a {text-decoration: none;}
+   .commuNav li {list-style: none;}
+   th,td {text-align: center;}
+   
+   .board {position: relative;}
+   .board2 {width: 1100px; margin: 10px auto}
+   .board2 .title {display:block; text-align: left; padding:5px 10px; margin:10px 10px 30px 10px; font-size:20px; font-weight: bold; border-bottom: 1px solid #eee}
+   .adoption_board {padding: 10px 30px 40px 30px; border-bottom: 1px solid #eee}
+   .qa_board {padding: 20px 30px 40px 30px; border-bottom: 1px solid #eee}
+   
+   .mainTitle { font-weight: bold; margin: 10px;}
+   .titleM {border-bottom: 1px solid #eee}
+   .navTop {margin: 0px auto;}
+   .commuNav {margin: 20px auto; border-bottom: 1px solid #eee; padding-bottom: 20px}
+   .commuNav:after {content: ''; display: block; clear: both;}
+   .navTop li {float: left;}
+   
+   .more {width: 1100px; border-bottom: 1px solid #eee; margin: 10px 0;}
+   .more:after {content: ''; display: block; clear: both;}
+   .moreBtn {display:block; margin-right: 100px; padding: 10px 0; float: right;}
+   
+   .tableArea {padding: 20px; width: 1000px; border-top: 1px solid #eee; border-bottom: 1px solid #eee; margin: 0 auto;}
+   .subNav{position: absolute; top: -36px; right: 80px;}
+   
+   select {border: 1px solid #5087ff; background-color: #fff; border-radius: 3px; padding: 5px; margin-right: 3px}
+   
+   .shNav {width: 269px; margin: 0 auto; padding-top: 10px}
+   .shtxt {padding: 3px; margin-right: 2px; width: 150px}
+   
+   span {display: block; font-size: 14px; margin: 3px}
+   .formArea {width: 850px; margin: 20px auto; padding: 10px; position:relative;}
+   .forminput {border:0; border: 1px solid #222; width: 500px; height: 25px; border-radius: 3px}
+   .writerArea {width: 750px; padding: 5px 50px;}
+   .titleArea {width: 750px; padding: 5px 50px;}
+   .txtArea {width: 750px; margin: 0 auto; padding-top: 10px}
+   .txtArea textarea {border: 1px solid #222; border-radius: 5px}
+   
+   .userD {border-bottom: 1px solid #eee;}
+   .userD .writerArea {padding-left: 10px}
+   .wdateArea {position: absolute; top:15px; right: 20px; color: #8c8c8c}
+   .conArea {display: block; text-align: left; margin-bottom: 20px; padding: 20px; height: 300px; overflow: auto; border-bottom: 1px solid #eee;}
+   .f_Menu {text-align: right;}
+   .f_Menu input {margin: 0 3px}
+   
+   .fileArea {width: 700px; margin: 0 auto; padding: 10px 0}
+   .btMenu {width: 107px; margin: 0 auto}
+   .navi {display: block; text-align: center}

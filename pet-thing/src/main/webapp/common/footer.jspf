@@ -1,0 +1,20 @@
+<%@ page contentType="text/html; charset=UTF-8"%>
+<style>
+<!--
+small {
+	font-size:12px;
+}
+.warning {
+	color:#C0C0C0;
+}
+-->
+</style>
+<center>
+<hr/>
+<br/>
+<span class=""><img class="mb-2 mx-auto" src="<%=request.getContextPath()%>/common/img/footer-logo.png" style="width:100px;"></span><br/>
+<small>대표이사 : 웅, 주소 : 서울특별시 중구 한강대로 416, Tel:1599-0110 </small><br/>
+<small>사업자 등록 번호: 815-81-01244, 통신판매업신고: 2018-서울중구-1445 </small><br/><br/>
+<small class="warning">펫띵(주)는 판매중개자로서 오픈마켓 펫띵의 거래 당사자가 아니며, 입점 판매자가 등록한 상품정보 및 거래에 대하여 펫띵(주)는 일절 책임을 지지 않습니다.</small><br/>
+<small class="warning">Copyright © 2018 PetThing Co.,Ltd. AllRights Reserved. </small><br/><br/>
+</center>
